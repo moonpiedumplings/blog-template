@@ -7,4 +7,5 @@ in
             quarto
             texlive.combined.scheme-full
             ];
+        QUARTO_PANDOC = "${pkgs.pandoc}/bin/pandoc";
     }
