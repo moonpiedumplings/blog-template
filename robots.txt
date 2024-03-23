@@ -1,1 +1,1 @@
-Sitemap: ssh://gh/moonpiedumplings/blog-template/sitemap.xml
+Sitemap: https://moonpiedumplings.github.io/blog-template/sitemap.xml

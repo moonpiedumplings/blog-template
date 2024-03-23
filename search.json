@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": ".",
+    "objectID": "blog/quarto/index.html",
+    "href": "blog/quarto/index.html",
+    "title": "About quarto",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Markdown formatting\n\n\n\n\n\n\nfilter2\n\n\nfilter3\n\n\n\ndescription\n\n\n\n\n\nFeb 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAbout quarto\n\n\n\n\n\n\nfilter1\n\n\nfilter2\n\n\n\ndescription\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Body of post here."
   },
   {
     "objectID": "blog/markdown/index.html",
@@ -56,10 +49,17 @@
     "text": "Useful HTML in Markdown\n&lt;br&gt; = line break\n\n&lt;details&gt;&lt;summary&gt;summary text&lt;/summary&gt;\n\ncollapsable content\n\n&lt;/details&gt;\n\n\n\nsummary text\n\ncollapsable content"
   },
   {
-    "objectID": "blog/quarto/index.html",
-    "href": "blog/quarto/index.html",
-    "title": "About quarto",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": ".",
     "section": "",
-    "text": "Body of post here."
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Markdown formatting\n\n\n\n\n\n\nfilter2\n\n\nfilter3\n\n\n\ndescription\n\n\n\n\n\nFeb 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAbout quarto\n\n\n\n\n\n\nfilter1\n\n\nfilter2\n\n\n\ndescription\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\nNo matching items"
   }
 ]
