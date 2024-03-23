@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>ssh://gh/moonpiedumplings/blog-template/index.html</loc>
+    <lastmod>2024-03-23T03:45:11.673Z</lastmod>
+  </url>
+  <url>
+    <loc>ssh://gh/moonpiedumplings/blog-template/blog/index.html</loc>
+    <lastmod>2024-03-23T03:45:11.672Z</lastmod>
+  </url>
+  <url>
+    <loc>ssh://gh/moonpiedumplings/blog-template/blog/markdown/index.html</loc>
+    <lastmod>2024-03-23T03:45:11.673Z</lastmod>
+  </url>
+  <url>
+    <loc>ssh://gh/moonpiedumplings/blog-template/blog/quarto/index.html</loc>
+    <lastmod>2024-03-23T03:45:11.673Z</lastmod>
+  </url>
+</urlset>
