@@ -1,5 +1,5 @@
 ---
-title: "."
+title: "Title Here"
 ---
 
 This is a Quarto website.
