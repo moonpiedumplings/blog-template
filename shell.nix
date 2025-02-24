@@ -5,7 +5,8 @@ in
 
         packages = with pkgs; [
             quarto
-            texlive.combined.scheme-full
+            # Texlive is needed for rendering/output to pdf
+            # texlive.combined.scheme-full
             ];
         QUARTO_PANDOC = "${pkgs.pandoc}/bin/pandoc";
     }

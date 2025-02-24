@@ -21,7 +21,6 @@ Theming: <https://quarto.org/docs/output-formats/html-themes.html>
 
 At the top right of this page, there is a toggle between light and dark theme. You can edit the `_quarto.yml` file to edit the themes used.
 
-
 Plugins/Extensions: <https://quarto.org/docs/extensions/>
 
 Plugins add functionality to quarto, like being able to embed QR Codes. 
@@ -29,4 +28,4 @@ Plugins add functionality to quarto, like being able to embed QR Codes.
 
 Web based slides: <https://quarto.org/docs/presentations/revealjs/>
 
-I used Reveal JS slides for the [presentation](https://moonpiedumplings.github.io/talks/self-site/revealjs.html#/title-slide)
+I used Reveal JS slides for the [presentation](https://moonpiedumplings.github.io/talks/self-site/presentation.html)
