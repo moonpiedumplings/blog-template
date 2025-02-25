@@ -8,7 +8,7 @@ categories: ['filter2', 'filter3']
 
 Markdown is very simple, and many sites, like Reddit, Stackoverflow, or even Discord use some variation of markdown formatting.
 
-Below is the Markown from the presentation, copied and pasted here. 
+Below is the Markdown from the presentation, copied and pasted here. 
 
 
 ## Markdown
