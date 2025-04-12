@@ -4,7 +4,7 @@ date: 2024-2-20
 description: description
 categories: ['filter1', 'filter2']
 execute:
-    freeze: never
+    freeze: false
 ---
 
 # What are qmd files?
