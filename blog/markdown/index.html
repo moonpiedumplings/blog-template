@@ -156,6 +156,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#markdown-basics" id="toc-markdown-basics" class="nav-link" data-scroll-target="#markdown-basics">Markdown Basics</a></li>
   <li><a href="#more-markdwon-basics" id="toc-more-markdwon-basics" class="nav-link" data-scroll-target="#more-markdwon-basics">More Markdwon Basics</a></li>
   <li><a href="#useful-html-in-markdown" id="toc-useful-html-in-markdown" class="nav-link" data-scroll-target="#useful-html-in-markdown">Useful HTML in Markdown</a></li>
+  <li><a href="#code-blocks" id="toc-code-blocks" class="nav-link" data-scroll-target="#code-blocks">Code Blocks</a></li>
   </ul>
 </nav>
     </div>
@@ -250,6 +251,35 @@ summary text
 </summary>
 collapsable content
 </details>
+</section>
+<section id="code-blocks" class="level2">
+<h2 class="anchored" data-anchor-id="code-blocks">Code Blocks</h2>
+<p>It’s possible to do code blocks with langauge highlighting.</p>
+<p>This:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>\`\`\`{.python}</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>print("hellow world!")</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>def testfunction(input):</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    print("Hi!")</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>\`\`\`</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Results in:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"hellow world!"</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> testfunction(<span class="bu">input</span>):</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"Hi!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Many, many languages are supported and can be highlighted.</p>
+<p>Images:</p>
+<p><code>![alt text](https://quarto.org/quarto.png)</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://quarto.org/quarto.png" class="img-fluid figure-img"></p>
+<figcaption>alt text</figcaption>
+</figure>
+</div>
+<p>Of course, this is an external image. You an also store images in the repository, and then refer to them by the relative file path. Something like:</p>
+<p><code>![](../image.png)</code></p>
+<p>Where <code>..</code> goes up one directory, and then you can refer to files by their file path.</p>
+<p>More information about markdown: <a href="https://quarto.org/docs/authoring/markdown-basics.html" class="uri">https://quarto.org/docs/authoring/markdown-basics.html</a></p>
 
 
 </section>
