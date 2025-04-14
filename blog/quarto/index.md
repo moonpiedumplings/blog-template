@@ -3,6 +3,7 @@ title: About Quarto
 date: 2024-2-20
 description: description
 categories: ['filter1', 'filter2']
+draft: false # Change to true to not render the post in on the website
 ---
 
 
@@ -29,3 +30,6 @@ Plugins add functionality to quarto, like being able to embed QR Codes.
 Web based slides: <https://quarto.org/docs/presentations/revealjs/>
 
 I used Reveal JS slides for the [presentation](https://moonpiedumplings.github.io/talks/self-site/presentation.html)
+
+
+Under the hood, Quarto uses [Pandoc](https://pandoc.org/) and supports all of it's features. 
